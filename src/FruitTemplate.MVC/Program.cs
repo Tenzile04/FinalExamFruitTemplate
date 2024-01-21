@@ -2,6 +2,8 @@ using FruitTemplate.Data.DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
 using FruitTemplate.Data;
 using FruitTemplate.Business;
+using FruitTemplate.Core.Models;
+using Microsoft.AspNetCore.Identity;
 namespace FruitTemplate.MVC
 {
     public class Program
@@ -12,6 +14,15 @@ namespace FruitTemplate.MVC
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+            {
+                opt.Password.RequiredUniqueChars = 1;
+                opt.Password.RequireLowercase = true;
+                opt.Password.RequireUppercase = true;
+                opt.Password.RequireDigit = true;
+                opt.Password.RequiredLength = 8;
+                opt.User.RequireUniqueEmail = false;
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
             builder.Services.AddDbContext<AppDbContext>(opt =>
             {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("default"));
@@ -32,7 +43,7 @@ namespace FruitTemplate.MVC
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllerRoute(
             name: "areas",

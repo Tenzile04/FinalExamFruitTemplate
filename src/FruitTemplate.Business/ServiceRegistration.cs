@@ -14,6 +14,7 @@ namespace FruitTemplate.Business
         public static void AddService(this IServiceCollection services)
         {
             services.AddScoped<IFruitService,FruitService>();
+            services.AddScoped<IAccountService,AccountService>();
         }
     }
 }

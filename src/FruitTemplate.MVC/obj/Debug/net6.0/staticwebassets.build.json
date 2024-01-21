@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QTlXQaUmX0PbaApOgIrL5zzhtV9qLeeXumvRgLhd/M8=",
+  "Hash": "0MPEBNNWjh5ggdTOtKz7A+0dFcZNk3gvAJlU6nNjq9g=",
   "Source": "FruitTemplate.MVC",
   "BasePath": "_content/FruitTemplate.MVC",
   "Mode": "Default",
@@ -36115,6 +36115,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\fruits\\6e2e0fa6-7e6e-428c-a47e-9d0dbd26ada0blog3.png"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\wwwroot\\uploads\\fruits\\99a489a6-6632-49f4-b647-cfbd92be5b54f3.png",
+      "SourceId": "FruitTemplate.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\wwwroot\\",
+      "BasePath": "_content/FruitTemplate.MVC",
+      "RelativePath": "uploads/fruits/99a489a6-6632-49f4-b647-cfbd92be5b54f3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\fruits\\99a489a6-6632-49f4-b647-cfbd92be5b54f3.png"
     }
   ]
 }
