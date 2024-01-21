@@ -7593,12 +7593,16 @@
       "PackagePath": "staticwebassets\\manage\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
-      "Id": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\wwwroot\\uploads\\fruits\\6e2e0fa6-7e6e-428c-a47e-9d0dbd26ada0blog3.png",
-      "PackagePath": "staticwebassets\\uploads\\fruits\\6e2e0fa6-7e6e-428c-a47e-9d0dbd26ada0blog3.png"
+      "Id": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\wwwroot\\uploads\\fruits\\3b9a3849-01d3-40be-b46c-7ef5902956fegreen_fr.png",
+      "PackagePath": "staticwebassets\\uploads\\fruits\\3b9a3849-01d3-40be-b46c-7ef5902956fegreen_fr.png"
     },
     {
-      "Id": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\wwwroot\\uploads\\fruits\\99a489a6-6632-49f4-b647-cfbd92be5b54f3.png",
-      "PackagePath": "staticwebassets\\uploads\\fruits\\99a489a6-6632-49f4-b647-cfbd92be5b54f3.png"
+      "Id": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\wwwroot\\uploads\\fruits\\795dfb9b-2456-44b7-a260-8042e2599efaf3.png",
+      "PackagePath": "staticwebassets\\uploads\\fruits\\795dfb9b-2456-44b7-a260-8042e2599efaf3.png"
+    },
+    {
+      "Id": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\wwwroot\\uploads\\fruits\\ceaa96a5-736d-49b6-b800-92a3528cbba7blog3.png",
+      "PackagePath": "staticwebassets\\uploads\\fruits\\ceaa96a5-736d-49b6-b800-92a3528cbba7blog3.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FruitTemplate.MVC.Microsoft.AspNetCore.StaticWebAssets.props",

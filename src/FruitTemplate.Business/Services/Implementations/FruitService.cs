@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 
 namespace FruitTemplate.Business.Services.Implementations
 {
+    
     public class FruitService : IFruitService
     {
         private readonly IFruitRepository _fruitRepository;
@@ -53,8 +54,10 @@ namespace FruitTemplate.Business.Services.Implementations
         {
             if (id == null) throw new InvalidNotFoundException();
             var existFruit=await _fruitRepository.GetByIdAsync(x=>x.Id == id);
-            
-             _fruitRepository.Delete(existFruit);
+            if(existFruit == null) throw new InvalidNotFoundException();
+            Helper.DeleteFile(_env.WebRootPath, "uploads/fruits", existFruit.ImageUrl);
+
+            _fruitRepository.Delete(existFruit);
             await _fruitRepository.CommitAsync();
 
         }
@@ -73,6 +76,7 @@ namespace FruitTemplate.Business.Services.Implementations
         {
             if(fruit == null) throw new InvalidNotFoundException();
             var existFruit = await _fruitRepository.GetByIdAsync(x => x.Id == fruit.Id);
+            if (existFruit == null) throw new InvalidNotFoundException();
             if (fruit.ImageFile != null)
             {
                 if (fruit.ImageFile.ContentType != "image/jpeg" && fruit.ImageFile.ContentType != "image/png")

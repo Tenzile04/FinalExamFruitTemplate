@@ -1,13 +1,18 @@
 ﻿@model Fruit
 <form method="post" enctype="multipart/form-data">
-    <div class="card" style="width: 18rem;">
-        <img src="~/uploads/fruits/@Model.ImageUrl" class="card-img-top" alt="...">
-        <p class="list-group-item">@Model.Name</p>
-        <p class="list-group-item">@Model.Description</p>
 
-            <div class="card-body">
-            <button type="submit" class="btn btn-danger">Delete</button>
-                <a asp-action="index" asp-controller="fruit" class="card-link btn btn-primary">Go to back</a>
-            </div>
+    <div class="card" style="width: 18rem;">
+        <img src="~/uploads/fruits/@Model.ImageUrl" class="card-img-top" >
+        <div class="card-body">
+            <h5 class="card-title">@Model.Name</h5>
+          
+        </div>
+  
+        <div class="card-body">
+            <button type="submit" class="card-link btn btn-danger">Delete</button>
+            <a asp-action="index" asp-controller="fruit" class="card-link btn btn-primary">Go to back</a>
+        </div>
     </div>
+
+
 </form>

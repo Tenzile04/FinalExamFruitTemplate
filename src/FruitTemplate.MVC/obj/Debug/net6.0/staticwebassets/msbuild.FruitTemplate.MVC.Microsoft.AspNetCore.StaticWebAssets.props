@@ -30368,12 +30368,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\manage\vendor\jquery\jquery.slim.min.map))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fruits\6e2e0fa6-7e6e-428c-a47e-9d0dbd26ada0blog3.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fruits\3b9a3849-01d3-40be-b46c-7ef5902956fegreen_fr.png))">
       <SourceType>Package</SourceType>
       <SourceId>FruitTemplate.MVC</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/FruitTemplate.MVC</BasePath>
-      <RelativePath>uploads/fruits/6e2e0fa6-7e6e-428c-a47e-9d0dbd26ada0blog3.png</RelativePath>
+      <RelativePath>uploads/fruits/3b9a3849-01d3-40be-b46c-7ef5902956fegreen_fr.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -30382,14 +30382,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fruits\6e2e0fa6-7e6e-428c-a47e-9d0dbd26ada0blog3.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fruits\3b9a3849-01d3-40be-b46c-7ef5902956fegreen_fr.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fruits\99a489a6-6632-49f4-b647-cfbd92be5b54f3.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fruits\795dfb9b-2456-44b7-a260-8042e2599efaf3.png))">
       <SourceType>Package</SourceType>
       <SourceId>FruitTemplate.MVC</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/FruitTemplate.MVC</BasePath>
-      <RelativePath>uploads/fruits/99a489a6-6632-49f4-b647-cfbd92be5b54f3.png</RelativePath>
+      <RelativePath>uploads/fruits/795dfb9b-2456-44b7-a260-8042e2599efaf3.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -30398,7 +30398,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fruits\99a489a6-6632-49f4-b647-cfbd92be5b54f3.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fruits\795dfb9b-2456-44b7-a260-8042e2599efaf3.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fruits\ceaa96a5-736d-49b6-b800-92a3528cbba7blog3.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>FruitTemplate.MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/FruitTemplate.MVC</BasePath>
+      <RelativePath>uploads/fruits/ceaa96a5-736d-49b6-b800-92a3528cbba7blog3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fruits\ceaa96a5-736d-49b6-b800-92a3528cbba7blog3.png))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
