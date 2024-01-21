@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "TXW5Pi8GqbUyNMm/OoNEWHiCPtrK9Alji0d6uy/heiQ=",
+  "Source": "FruitTemplate.MVC",
+  "BasePath": "_content/FruitTemplate.MVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FruitTemplate.MVC\\wwwroot",
+      "Source": "FruitTemplate.MVC",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\wwwroot\\",
+      "BasePath": "_content/FruitTemplate.MVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FruitTemplate.MVC.styles.css",
+      "SourceId": "FruitTemplate.MVC",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/FruitTemplate.MVC",
+      "RelativePath": "FruitTemplate.MVC.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\FruitTemplate.MVC.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FruitTemplate.MVC.bundle.scp.css",
+      "SourceId": "FruitTemplate.MVC",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/FruitTemplate.MVC",
+      "RelativePath": "FruitTemplate.MVC.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FruitTemplate.MVC.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\wwwroot\\favicon.ico",
+      "SourceId": "FruitTemplate.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FinalExamFruit\\src\\FruitTemplate.MVC\\wwwroot\\",
+      "BasePath": "_content/FruitTemplate.MVC",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}
