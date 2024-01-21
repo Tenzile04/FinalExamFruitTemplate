@@ -2,10 +2,12 @@
 using FruitTemplate.Business.Services.Implementations;
 using FruitTemplate.Business.Services.Interfaces;
 using FruitTemplate.Core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FruitTemplate.MVC.Areas.Manage.Controllers
 {
+    [Authorize(Roles ="SuperAdmin")]
     [Area("manage")]
     public class SettingController : Controller
     {
