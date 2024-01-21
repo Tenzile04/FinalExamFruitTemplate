@@ -1,6 +1,8 @@
 C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\bin\Debug\net6.0\FruitTemplate.Core.deps.json
+C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\bin\Debug\net6.0\FruitTemplate.Core.runtimeconfig.json
 C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\bin\Debug\net6.0\FruitTemplate.Core.dll
 C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\bin\Debug\net6.0\FruitTemplate.Core.pdb
+C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\FruitTemplate.Core.csproj.AssemblyReference.cache
 C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\FruitTemplate.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\FruitTemplate.Core.AssemblyInfoInputs.cache
 C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\FruitTemplate.Core.AssemblyInfo.cs
@@ -9,7 +11,5 @@ C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0
 C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\FruitTemplate.Core.dll
 C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\refint\FruitTemplate.Core.dll
 C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\FruitTemplate.Core.pdb
-C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\ref\FruitTemplate.Core.dll
-C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\bin\Debug\net6.0\FruitTemplate.Core.runtimeconfig.json
-C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\FruitTemplate.Core.csproj.AssemblyReference.cache
 C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\FruitTemplate.Core.genruntimeconfig.cache
+C:\Users\II novbe\Desktop\FinalExamFruit\src\FruitTemplate.Core\obj\Debug\net6.0\ref\FruitTemplate.Core.dll

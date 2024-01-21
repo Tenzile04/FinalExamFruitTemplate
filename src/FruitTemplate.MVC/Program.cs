@@ -1,6 +1,7 @@
 using FruitTemplate.Data.DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
-
+using FruitTemplate.Data;
+using FruitTemplate.Business;
 namespace FruitTemplate.MVC
 {
     public class Program
@@ -15,6 +16,8 @@ namespace FruitTemplate.MVC
             {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("default"));
             });
+            builder.Services.AddRepository();
+            builder.Services.AddService();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -31,7 +34,10 @@ namespace FruitTemplate.MVC
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.MapControllerRoute(
+            name: "areas",
+            pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+          );
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FruitTemplate.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a67a92df51c86f7d49985fb76a26f1afe4663c82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aeff88fc4719c37fac791c9bf901b4729eda3647")]
 [assembly: System.Reflection.AssemblyProductAttribute("FruitTemplate.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FruitTemplate.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
