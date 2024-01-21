@@ -4,6 +4,7 @@ using FruitTemplate.Data;
 using FruitTemplate.Business;
 using FruitTemplate.Core.Models;
 using Microsoft.AspNetCore.Identity;
+using FruitTemplate.MVC.Areas.ViewService;
 namespace FruitTemplate.MVC
 {
     public class Program
@@ -14,6 +15,7 @@ namespace FruitTemplate.MVC
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<LayoutSevice>();
             builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
             {
                 opt.Password.RequiredUniqueChars = 1;

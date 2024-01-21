@@ -15,6 +15,7 @@ namespace FruitTemplate.Business
         {
             services.AddScoped<IFruitService,FruitService>();
             services.AddScoped<IAccountService,AccountService>();
+            services.AddScoped<ISettingService,SettingService>();
         }
     }
 }

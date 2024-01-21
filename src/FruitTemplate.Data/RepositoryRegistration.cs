@@ -15,6 +15,7 @@ namespace FruitTemplate.Data
         {
             services.AddScoped<IFruitRepository, FruitRepository>();
             services.AddScoped<IAccountRepository, AccountRepository>();
+            services.AddScoped<ISettingRepository, SettingRepository>();
         }
     }
 }

@@ -17,5 +17,6 @@ namespace FruitTemplate.Data.DataAccessLayer
         }
         public DbSet<Fruit> Fruits { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }
